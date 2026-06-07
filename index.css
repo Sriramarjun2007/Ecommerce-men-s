@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    height: 70px;
+    background-color: black;
+}
+.navbar h2{
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    padding-left: 30px;
+    padding-top:25px ;
+    letter-spacing: 3px;
+    font-weight: 550;
+}
+.quickoption{
+    font-family: 'Poppins', sans-serif;
+}
+.quickoption ol{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: #ababab;
+    margin-left: 300px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.icons{
+    color:#FFFFFF;
+    padding-top: 15px;
+    margin-left: 400px;
+    font-size: 24px;
+    display: flex;
+    gap: 20px;
+    padding-top: 25px;
+}
+.homepage{
+    background: #1A1A2E;
+    height: 330px;
+}
+.collection{
+    margin: 0;
+    color:#C75B2A;
+    letter-spacing: 1px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.dress{
+    padding-left: 30px;
+    color: white;
+    font-size: 35px;
+    margin: 0;
+    padding-top: 5px;
+    font-weight: 550;
+}
+.para{
+    padding-left: 30px;
+    color: #ababab;
+}
+.shirticon{
+    height: 140px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b3b5d;
+    border-radius: 10px;
+    margin-top: -160px;
+    color: #ababab;
+    font-size: 40px;
+    margin-left: 1200px;
+} 
+.tieicon{
+    height: 140px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b3b5d;
+    border-radius: 10px;
+    margin-top: -130px;
+    color: #ababab;
+    font-size: 40px;
+    margin-left: 1310px;
+} 
+.shopping{
+    display: flex;
+    gap: 20px;
+    color: white;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+.shopnow{
+    height: 20px;
+    width: 90px;
+    background-color: #3b3b5d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.shopnow:hover{
+    background-color: white;
+    color:#1A1A2E;
+}
+.viewlookbook{
+    height: 20px;
+    width: 110px;
+    background-color: #3b3b5d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.viewlookbook:hover{
+    background-color: white;
+    color:#1A1A2E;
+}
