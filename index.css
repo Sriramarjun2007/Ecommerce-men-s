@@ -23,7 +23,7 @@ body{
     gap: 30px;
     list-style: none;
     color: #ababab;
-    margin-left: 300px;
+    margin-left: 350px;
     margin-top: 30px;
     letter-spacing: 1px;
     font-weight: 500;
@@ -123,3 +123,80 @@ body{
     background-color: white;
     color:#1A1A2E;
 }
+.catergory {
+    margin-left: 30px;
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+.tishirt{
+    height: 50px;
+    width: 50px;
+    background-color:#ababab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #1A1A2E;
+    font-size: 25px;
+}
+.hanger{
+    height: 50px;
+    width: 50px;
+    background-color:#ababab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #1A1A2E;
+    font-size: 25px;
+}
+.tie{
+    height: 50px;
+    width: 50px;
+    background-color:#ababab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #1A1A2E;
+    font-size: 25px;
+}
+.star{
+    height: 50px;
+    width: 50px;
+    background-color:#ababab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #1A1A2E;
+    font-size: 25px;
+}
+.producthead{
+    margin-top: 20px;
+    border-top: 1px solid #ababab;
+    display: flex;
+}
+.arrivalshead{
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 550;
+}
+.moreproduct{
+    padding-left: 1270px;
+    padding-top: 10px;
+}
+.productsection{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.productsection div{
+    height: 250px;
+    width: 260px;
+    background-color: #3b3b5d;
+    color: white;
+    border: 1px solid #ababab;
+    border-radius: 10px;
+} 
