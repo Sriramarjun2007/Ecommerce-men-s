@@ -104,12 +104,33 @@ h1{
 .subtotal{
     margin-left: 220px;
 }
+.closepopup{
+    margin-left: 1260px;
+    height: 20px;
+    width: 100px;
+    background-color: #18183A;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
 
-@media(max-width:768px){
+@media screen and (max-width:768px){
+
+    body{
+        padding:15px;
+    }
+
+    h1{
+        font-size:30px;
+    }
 
     .cart-item{
         flex-direction:column;
         text-align:center;
+        gap:15px;
     }
 
     .imageofproductcard{
@@ -117,10 +138,51 @@ h1{
         height:200px;
     }
 
-    #total{
+    .product-details{
+        width:100%;
+    }
+
+    .product-details h3{
+        font-size:20px;
+    }
+
+    .product-details p{
+        font-size:15px;
+    }
+
+    .quantity-section{
+        justify-content:center;
+        margin-top:10px;
+    }
+
+    .quantity-section button{
+        margin-top:0;
+    }
+
+    .quantity-section span{
+        margin-top:0;
+    }
+
+    .subtotal{
+        margin-left:0;
         text-align:center;
     }
-    .subtotal{
-        margin-left: 0;
+
+    .remove-btn{
+        margin-left:0;
+        width:100%;
+        max-width:200px;
+    }
+
+    #total{
+        text-align:center;
+        font-size:22px;
+        padding:15px;
+    }
+
+    .closepopup{
+        width:120px;
+        margin-left:0 ;
+        display:block;
     }
 }

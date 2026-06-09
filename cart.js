@@ -95,3 +95,6 @@ function removeFromCart(id) {
 
 // Load Cart
 displayCart();
+function closepopup() {
+    window.location.href = "index.html";
+}
