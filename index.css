@@ -37,6 +37,10 @@ body{
     gap: 20px;
     padding-top: 25px;
 }
+.icons a{
+    text-decoration: none; 
+    color:#FFFFFF;
+}
 .homepage{
     background: #1A1A2E;
     height: 330px;
@@ -200,3 +204,28 @@ body{
     border: 1px solid #ababab;
     border-radius: 10px;
 } 
+
+
+.product-card{
+    width:200px;
+    padding:20px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-card button{
+    background:black;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    cursor:pointer;
+    border-radius:5px;
+}
+.product-card img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+    border-radius:8px;
+}
