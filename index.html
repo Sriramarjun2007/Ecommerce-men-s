@@ -67,13 +67,35 @@
 
 <div id="popup" class="popup">
     <div class="popup-content">
-        <input type="file" id="productImage" accept="image/*">
-        <input type="text" id="productName" placeholder="Product Name">
-        <input type="text" id="productRating" placeholder="Rating">
-        <input type="number" id="productPrice" placeholder="Price">
 
-        <button onclick="addNewProduct()">Add Product</button>
-        <button onclick="closeModal()">Close</button>
+        <h2>Add Product</h2>
+
+        <input type="file" id="productImage" accept="image/*">
+
+        <input type="text"
+               id="productName"
+               placeholder="Enter Product Name">
+
+        <input type="text"
+               id="productRating"
+               placeholder="★★★★☆">
+
+        <input type="number"
+               id="productPrice"
+               placeholder="Enter Price">
+
+        <div class="popup-buttons">
+            <button class="add-btn"
+                    onclick="addNewProduct()">
+                Add Product
+            </button>
+
+            <button class="close-btn"
+                    onclick="closeModal()">
+                Close
+            </button>
+        </div>
+
     </div>
 </div>
 <footer>
