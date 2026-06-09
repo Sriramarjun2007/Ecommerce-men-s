@@ -120,4 +120,7 @@ h1{
     #total{
         text-align:center;
     }
+    .subtotal{
+        margin-left: 0;
+    }
 }
