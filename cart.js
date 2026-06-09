@@ -44,7 +44,7 @@ function displayCart() {
 
                 <p class="subtotal">Subtotal : ₹${item.price * item.quantity}</p>
 
-                <button onclick="removeFromCart(${item.id})">
+                <button onclick="removeFromCart(${item.id})" class="removebutton">
                     Remove
                 </button>
 
